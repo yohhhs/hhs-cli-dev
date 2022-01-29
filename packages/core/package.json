@@ -17,10 +17,11 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "registry": "https://registry.yarnpkg.com/",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "1a36b9937714d15712a68a413dc9dfbd650ea488"
+  "gitHead": "bd22eb081557d443c1935a8af9b711e276a5297a"
 }
