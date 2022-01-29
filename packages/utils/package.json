@@ -1,6 +1,6 @@
 {
   "name": "@hhs-cli-dev/utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "yohhhs <yohhhs@163.com>",
   "homepage": "",
@@ -18,5 +18,6 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "1a36b9937714d15712a68a413dc9dfbd650ea488"
 }
