@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "registry": "https://registry.yarnpkg.com/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -30,5 +31,6 @@
     "@hhs-cli-dev/log": "^1.0.3",
     "@hhs-cli-dev/package": "^1.0.3",
     "@hhs-cli-dev/utils": "^1.0.3"
-  }
+  },
+  "gitHead": "b59a470292e361fe982f69809733ed9a1d039cb3"
 }

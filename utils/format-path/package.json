@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "registry": "https://registry.yarnpkg.com/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/yohhhs/hhs-cli-dev/issues"
-  }
+  },
+  "gitHead": "b59a470292e361fe982f69809733ed9a1d039cb3"
 }

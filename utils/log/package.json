@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "registry": "https://registry.yarnpkg.com/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,6 @@
   },
   "dependencies": {
     "npmlog": "^6.0.0"
-  }
+  },
+  "gitHead": "b59a470292e361fe982f69809733ed9a1d039cb3"
 }
