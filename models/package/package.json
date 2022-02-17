@@ -1,0 +1,38 @@
+{
+  "name": "@hhs-cli-dev/package",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "yohhhs <yohhhs@163.com>",
+  "homepage": "https://github.com/yohhhs/hhs-cli-dev#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohhhs/hhs-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yohhhs/hhs-cli-dev/issues"
+  },
+  "dependencies": {
+    "@hhs-cli-dev/format-path": "^1.0.0",
+    "@hhs-cli-dev/get-npm-info": "^1.0.2",
+    "@hhs-cli-dev/utils": "^1.0.2",
+    "fs-extra": "9.0.1",
+    "npminstall": "^5.4.1",
+    "path-exists": "4.0.0",
+    "pkg-dir": "4.2.0"
+  }
+}

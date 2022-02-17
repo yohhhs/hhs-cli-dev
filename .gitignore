@@ -1,4 +1,6 @@
 .idea
 node_modules
 packages/**/node_modules
-lerna-debug.json
+core/**/node_modules
+utils/**/node_modules
+lerna-debug.log
