@@ -1,6 +1,6 @@
 {
   "name": "@hhs-cli-dev/package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "yohhhs <yohhhs@163.com>",
   "homepage": "https://github.com/yohhhs/hhs-cli-dev#readme",
@@ -28,9 +28,9 @@
     "url": "https://github.com/yohhhs/hhs-cli-dev/issues"
   },
   "dependencies": {
-    "@hhs-cli-dev/format-path": "^1.0.3",
-    "@hhs-cli-dev/get-npm-info": "^1.0.3",
-    "@hhs-cli-dev/utils": "^1.0.3",
+    "@hhs-cli-dev/format-path": "^1.0.4",
+    "@hhs-cli-dev/get-npm-info": "^1.0.4",
+    "@hhs-cli-dev/utils": "^1.0.4",
     "fs-extra": "9.0.1",
     "npminstall": "^5.4.1",
     "path-exists": "4.0.0",
