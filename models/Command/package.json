@@ -1,6 +1,6 @@
 {
   "name": "@hhs-cli-dev/command",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "yohhhs <yohhhs@163.com>",
   "homepage": "https://github.com/yohhhs/hhs-cli-dev#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/yohhhs/hhs-cli-dev/issues"
   },
   "dependencies": {
-    "@hhs-cli-dev/log": "^1.0.2",
+    "@hhs-cli-dev/log": "^1.0.3",
     "colors": "^1.4.0"
   }
 }
