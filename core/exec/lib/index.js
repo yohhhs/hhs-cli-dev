@@ -7,7 +7,7 @@ const { exec: spawn } = require('@hhs-cli-dev/utils')
 const path = require("path");
 
 const SETTINGS = {
-    init: '@hhs-cli/init'
+    init: '@hhs-cli-dev/init'
 }
 const CACHE_DIR = 'dependencies'
 
@@ -16,8 +16,8 @@ async function exec() {
     let storeDir = ''
     let targetPath = process.env.CLI_TARGET_PATH
     const homePath = process.env.CLI_HOME_PATH
-    log.verbose('targetPath:', targetPath)
-    log.verbose('homePath:', homePath)
+    log.verbose('exec targetPath:', targetPath)
+    log.verbose('exec homePath:', homePath)
 
     const cmdObj = arguments[arguments.length - 1]
     const cmdName = cmdObj.name()
@@ -50,6 +50,7 @@ async function exec() {
         })
     }
     const rootFile = pkg.getRootFilePath()
+    console.log(rootFile)
     if (rootFile) {
         try {
             const args = Array.from(arguments)
@@ -64,6 +65,7 @@ async function exec() {
 
             args[args.length - 1] = o
             const code = `require('${rootFile}').call(null, ${JSON.stringify(args)})`
+
             const child = spawn('node', ['-e', code], {
                 cwd: process.cwd(),
                 stdio: 'inherit'

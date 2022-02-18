@@ -67,8 +67,11 @@ class Package {
     }
     async update() {
         await this.prepare()
+        // 1. 获取最新的npm模块版本号
         const latestPackageVersion = await getNpmLatestVersion(this.packageName)
+        // 2. 查询最新版本号对应的路径是否存在
         const latestFilePath = this.getSpecificCacheFilePath(latestPackageVersion)
+        // 3. 如果不存在，则直接安装最新版本
         if (!pathExists(latestFilePath)) {
             await npmInstall({
                 root: this.targetPath,
@@ -88,6 +91,7 @@ class Package {
     // 获取入口文件路径
     getRootFilePath() {
         function _getRootFile(targetPath) {
+            // 1. 获取package.json所在目录
             const dir = pkgDir(targetPath)
             if (dir) {
                 // /d/learn/hhs-cli-dev/commands/init/lib
