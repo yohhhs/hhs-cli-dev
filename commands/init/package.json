@@ -1,6 +1,6 @@
 {
   "name": "@hhs-cli-dev/init",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "yohhhs <yohhhs@163.com>",
   "homepage": "https://github.com/yohhhs/hhs-cli-dev#readme",
@@ -28,11 +28,11 @@
     "url": "https://github.com/yohhhs/hhs-cli-dev/issues"
   },
   "dependencies": {
-    "@hhs-cli-dev/command": "^1.0.4",
-    "@hhs-cli-dev/log": "^1.0.4",
-    "@hhs-cli-dev/package": "^1.0.4",
-    "@hhs-cli-dev/request": "^1.0.4",
-    "@hhs-cli-dev/utils": "^1.0.4",
+    "@hhs-cli-dev/command": "^1.0.5",
+    "@hhs-cli-dev/log": "^1.0.5",
+    "@hhs-cli-dev/package": "^1.0.5",
+    "@hhs-cli-dev/request": "^1.0.5",
+    "@hhs-cli-dev/utils": "^1.0.5",
     "ejs": "^3.1.6",
     "fs-extra": "9.0.1",
     "glob": "^7.2.0",

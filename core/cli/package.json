@@ -1,6 +1,6 @@
 {
   "name": "@hhs-cli-dev/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "yohhhs <yohhhs@163.com>",
   "homepage": "",
@@ -25,10 +25,10 @@
   },
   "gitHead": "b59a470292e361fe982f69809733ed9a1d039cb3",
   "dependencies": {
-    "@hhs-cli-dev/exec": "^1.0.4",
-    "@hhs-cli-dev/get-npm-info": "^1.0.4",
-    "@hhs-cli-dev/init": "^1.0.4",
-    "@hhs-cli-dev/log": "^1.0.4",
+    "@hhs-cli-dev/exec": "^1.0.5",
+    "@hhs-cli-dev/get-npm-info": "^1.0.5",
+    "@hhs-cli-dev/init": "^1.0.5",
+    "@hhs-cli-dev/log": "^1.0.5",
     "colors": "^1.4.0",
     "commander": "^9.0.0",
     "dotenv": "^16.0.0",
