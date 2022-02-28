@@ -1,6 +1,6 @@
 {
   "name": "@hhs-cli-dev/core",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "> TODO: description",
   "author": "yohhhs <yohhhs@163.com>",
   "homepage": "",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@hhs-cli-dev/exec": "^1.0.5",
     "@hhs-cli-dev/get-npm-info": "^1.0.5",
-    "@hhs-cli-dev/init": "^1.0.5",
+    "@hhs-cli-dev/init": "^1.0.6",
     "@hhs-cli-dev/log": "^1.0.5",
     "colors": "^1.4.0",
     "commander": "^9.0.0",
