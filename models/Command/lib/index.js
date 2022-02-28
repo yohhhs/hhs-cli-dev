@@ -6,7 +6,7 @@ const colors = require('colors/safe') // 控制台颜色
 const log = require('@hhs-cli-dev/log')
 
 const LOWEST_NODE_VERSION = '12.0.0'
-
+// d
 class Command {
     constructor(argv) {
         if (!argv || !Array.isArray(argv)) {
